@@ -17,7 +17,7 @@ function App() {
     const sd2 = parseInt(second.current.value);
     const sd3 = parseInt(third.current.value);
 
-    if(sd1 == 0 || sd2 == 0 || sd3 == 0) {
+    if(sd1 <= 0 || sd2 <= 0 || sd3 <= 0) {
       setTriangleType('None');
       return;
     }
